@@ -1,0 +1,56 @@
+body{
+    margin: 2%;
+    background-color: rgb(128, 128, 128);
+
+}
+
+header{
+    text-align: center;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    padding-bottom: 2%;
+}
+nav{
+    font-size: x-large;
+    font-variant: small-caps;
+}
+
+section{
+    /* display: inline-block; This line is ignored because of float property */
+    width: 30%;
+    margin-right: 2%;
+    float: left;
+    margin-bottom: 1%;
+}
+
+h2{
+    background-color: rgb(0, 183, 255);
+}
+
+footer{
+    background-color: rgb(0, 183, 255);
+    clear: both;
+    height: 100px;
+}
+
+img{
+    width: 75px;
+    
+}
+
+details{
+   font-style: italic;
+}
+summary{
+    font-style: normal;
+}
+
+
+a[href$=".html"]{
+    background-color: saddlebrown;
+    color: white;
+}
+
+footer > p{
+    color: white;
+}
